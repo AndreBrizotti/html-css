@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            background-color: blueviolet;
+            padding: 10px;
+            box-shadow: 1px 1px 1px rgb(60, 241, 5);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 10px 30px 50px;
+        }
+        article {
+            background-color: blue;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: red;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo aut totam dolores quis eius omnis enim labore explicabo iure debitis, optio quasi, sed minima quisquam at porro nostrum architecto.</p>
+                <aside>
+                    <p>Artigo Escrito por João</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo André</p>
+
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
